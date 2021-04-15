@@ -234,3 +234,22 @@ html {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #000;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  background-image: url(../assets/captured-final-assets/header-image.jpg);
+  background-size: cover;
+  height: 100vh;
+}

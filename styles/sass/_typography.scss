@@ -1,0 +1,6 @@
+li{
+    list-style: none;
+    a {
+@include anchorStyle(none, #000);
+}
+}
