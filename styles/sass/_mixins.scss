@@ -1,0 +1,4 @@
+@mixin anchorStyle($decoration, $color) {
+    text-decoration: $decoration;
+    color: $color;
+}
