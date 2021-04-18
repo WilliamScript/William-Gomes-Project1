@@ -1,0 +1,13 @@
+.headerImgCont {
+    @include positionAbsolute(0,-12rem);
+    height: 80%;
+    max-height: 800px;
+    position: absolute;
+    box-shadow: 0 0 0 4.5rem $boxShadow;
+    
+}
+
+.headerImg {
+    height: 100%;
+    
+}

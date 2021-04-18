@@ -1,6 +1,58 @@
-li{
-    list-style: none;
-    a {
-@include anchorStyle(none, #000);
+html {
+    font-size: 62.5%;
 }
+
+h1,
+h2,
+h3 {
+    margin: 0%;
+}
+
+.headerCont h1 {
+    @include font(13.8rem, $mainFont);
+    margin-bottom: 4rem;
+    text-transform: uppercase;
+    text-align: center;
+    z-index: 10;
+}
+
+.mainCont {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1000px;
+
+    h2 {
+        @include font(4.2rem, $mainFont);
+        padding-top: 20rem;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+}
+
+nav{
+    margin-top: 2rem;
+    li {
+        @include font(2rem, $mainFont);
+        letter-spacing: 0.11rem;
+        list-style: none;
+        padding-left: 6rem;
+        text-transform: uppercase;
+        }
+    }
+
+a {
+    @include anchorStyle(none, #000);
+    @include font(2rem, $mainFont);
+    text-transform: uppercase;
+}
+
+a.tealButton {
+         background-color: $green;
+         padding: 1rem 2rem;
+    }
+
+p {
+    @include font(2rem, $secondaryFont);
+    line-height: 32px;
+    padding-bottom: 2rem;
 }

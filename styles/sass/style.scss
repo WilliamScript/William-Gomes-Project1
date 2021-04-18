@@ -1,14 +1,40 @@
 @import "setup";
 @import "mixins";
-@import "typography";
 @import "variables";
-
-html {
-    font-size: 62.5%;
-}
+@import "typography";
+@import "images";
 
 header {
     background-image: url(../assets/captured-final-assets/header-image.jpg);
     background-size: cover;
-    height: 100vh;
+    height: 85vh;
+    position: relative;
 }
+
+.wrapper {
+    max-width: 1300px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav {
+    float: right;
+    li {
+        float: right;
+    }
+}
+
+.wrapper.headerCont {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        height: 85vh;
+}
+
+main {
+height: 80vh;
+background-color: $ice;
+}
+    
+
+
