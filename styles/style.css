@@ -292,13 +292,19 @@ a {
 a.tealButton {
   background-color: #4CEEA7;
   padding: 1rem 2rem;
+  margin: 20px;
+  display: inline-block;
 }
 
 p {
   font-size: 2rem;
   font-family: "Roboto", sans-serif;
   line-height: 32px;
-  padding-bottom: 2rem;
+}
+
+.subsection h3 {
+  font-size: 3.2rem;
+  font-family: "Playfair Display", serif;
 }
 
 .headerImgCont {
@@ -324,7 +330,7 @@ header {
 
 .wrapper {
   max-width: 1300px;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -353,4 +359,10 @@ nav li {
 main {
   height: 80vh;
   background-color: #EFFDF3;
+}
+
+.section1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
