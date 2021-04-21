@@ -1,0 +1,113 @@
+// Global Styles
+
+img {
+    display: block;
+}
+
+
+
+
+// Index Styles
+
+.indexHeader {
+    background-image: url(../assets/captured-final-assets/header-image.jpg);
+    background-size: cover;
+    height: 82vh;
+    position: relative;
+}
+
+.headerImgCont {
+    @include positionAbsolute(0,-14rem);
+    width: 44%;
+    max-height: 800px;
+    position: absolute;
+    box-shadow: 0 0 0 4.5rem $boxShadow;
+    
+}
+
+.headerImg {
+    width: 100%;
+    
+}
+
+.sectionCont img {
+    max-width: 70rem;
+    width: 100%;
+    display: block;
+}
+
+.sectionImg1 {
+    position: absolute;
+    left: 0;
+    top: -5rem;
+    box-shadow: 40px 30px 0 0 $boxShadow
+}
+
+.sectionImg2 {
+    position: absolute;
+    right: 0;
+    box-shadow: -40px 40px 0 0 $boxShadow ;
+}
+
+.mapImage {
+    background-image: url(../assets/captured-final-assets/banner.jpg);
+    background-size: cover;
+    height: 55vh;
+}
+
+.section3Img {
+    box-shadow: 30px 40px 0 0 $boxShadow;
+    height: 304px;
+}
+
+// Blog Styles
+
+.blogHeader {
+    background-image: url(../assets/captured-final-assets/blog-header.jpg);
+    background-size: cover;
+    height: 70vh;
+}
+
+// Left Blog Aside
+
+.leftPicture {
+
+    left: 0;
+    top: 85vh;
+    position: absolute;
+    width: 35vw;
+    box-shadow:20px 0 0 0 #FFF;
+
+        img {
+            width: 100%;           
+        }
+}
+
+.rightPicture {
+
+    right: 0;
+    bottom: -9vh;
+    position: absolute;
+    width: 56vw;
+    max-height: 650px;
+
+        img {
+        width: 100%;
+        box-shadow: -4rem 4rem 0 0 $boxShadow;
+    }
+}
+
+.profilePic {
+    position: absolute;
+    width: 100px;
+
+    img{
+        width:100%;
+    }
+}
+
+// Contact styles
+
+.contactHeader {
+    
+}

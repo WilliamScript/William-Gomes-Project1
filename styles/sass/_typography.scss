@@ -1,0 +1,180 @@
+// Global Styles
+html {
+    font-size: 62.5%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0%;
+}
+
+h1 { 
+    @include font(13.8rem, $mainFont);
+    text-transform: uppercase;
+}
+
+h2 {
+    @include font(8rem, $mainFont);
+    padding-top: 25rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+h3{
+    @include font(4.2rem, $mainFont);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h4 {
+    @include font(3.2rem, $mainFont);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav{
+
+    margin-top: 2rem;
+
+    li {
+        @include font(2rem, $mainFont);
+        letter-spacing: 0.11rem;
+        list-style: none;
+        padding-left: 6rem;
+        text-transform: uppercase;
+
+        a {
+            @include anchorStyle(none, #000);
+            @include font(2rem, $mainFont);
+            text-transform: uppercase;
+        }
+    }
+}
+
+p {
+    @include font(2rem, $secondaryFont);
+    line-height: 32px;
+    margin: 0;
+
+}
+// Index Styles
+
+
+
+.headerCont h1 {
+    text-align: center;
+    z-index: 10;
+    padding-bottom: 9rem;
+}
+
+.mainCont {
+    text-align: center;
+    padding: 8rem auto;
+    margin: 0 auto;
+    max-width: 1000px;
+
+    p {
+        text-align: left
+    }
+
+    
+}
+
+
+
+a.tealButton {
+    
+    @include anchorStyle(none, #000);
+    @include font(2rem, $mainFont);
+    background-color: $green;
+    padding: 1rem 2rem;
+    display: inline-block;
+    margin:1rem 0;
+    line-height: 3.2rem;
+    letter-spacing: 0.1rem; 
+    text-transform: uppercase;
+
+}
+
+
+
+.subsection2 {
+    
+    text-align: right;
+
+        p {
+            text-align: left;
+        }
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.iconSection h4{
+    padding-top: 3rem;
+}
+
+
+
+// Blog Styles
+
+.blogHeader h1{
+    @include font(8rem, $mainFont);
+    text-align: center;
+    padding-top: 25vh;
+}
+
+aside a{    
+    @include anchorStyle(none, #000);
+    font-weight: bold;
+}
+
+ul.recentPostList {
+    padding: 0;
+}
+
+ul.recentPostList li {
+    @include font(2rem, $secondaryFont);
+    list-style: none;
+    padding-bottom: 10px;
+    
+}
+
+ul.recentPostList li::before{
+    content: "\2022";
+    color: $green;
+    padding-right: 15px;
+}
+
+.flexContainer h4 {
+    padding: 5rem 0;
+}
+
+.flexComment p {
+    margin-left: -20px;
+}
+
+.date {
+    line-height: 16px;
+    padding-bottom: 1.5rem;
+}
+
+// Form Section
+
+input,
+textarea,
+button {
+    font-size: 2rem;
+    line-height: 32px;
+}
+
+button {
+    @include font(2rem, $mainFont);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}

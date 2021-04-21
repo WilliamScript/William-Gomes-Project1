@@ -1,0 +1,14 @@
+@mixin anchorStyle($decoration, $color) {
+    text-decoration: $decoration;
+    color: $color;
+}
+
+@mixin positionAbsolute($right, $bottom) {
+    right: $right;
+    bottom: $bottom;
+}
+
+@mixin font($size, $family) {
+    font-size: $size;
+    font-family: $family;
+}

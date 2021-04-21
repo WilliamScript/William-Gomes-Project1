@@ -1,0 +1,226 @@
+@import "setup";
+@import "mixins";
+@import "variables";
+@import "typography";
+@import "images";
+
+// Global Styles
+
+.wrapper {
+    max-width: 1300px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav {
+    float: right;
+    li {
+        float: right;
+    }
+}
+// Index Styles
+
+.wrapper.headerCont {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        height: 85vh;
+}
+
+main {
+background-color: $ice;
+}
+
+.sectionCont {
+    display: flex;
+    justify-content: space-between;
+    height: 50vh;
+}
+
+.sectionImgCont {
+    flex-basis: 60%;
+}
+
+.subsection {
+    flex-basis: 40%;
+    margin-top: 6rem;
+}
+
+.section1 {
+    position: relative;
+    height: 100vh;
+    margin-bottom: -7rem;
+}
+
+.section2 {
+    background-color: $ice;
+}
+
+.fas {
+    background-color: $green;
+    background-size: 1rem;
+    border-radius: 50%;
+    font-size: 3rem;
+    max-height: 70px;
+    max-width: 70px;
+    padding: 1rem;
+}
+
+.iconSection {
+    width: 50%;
+
+    i {
+        margin-right: 2rem
+    }
+
+    p {
+        padding-left: 8rem;
+    }
+}
+
+.section:nth-child(-n+2) {
+    padding-top: 10rem;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 14rem;
+}
+
+.sectionProfile {
+    background-color: $ice;
+    height: 60vh;
+}
+
+.monthProfile {
+    margin-left: 15rem;
+}
+
+.photoGallery {
+    display: flex;
+    justify-content: space-between;
+    margin: 15rem auto;
+}
+
+footer p {
+    background-color: $black;
+    color: #FFF;
+    text-align: center;
+}
+
+// Blog Styles
+
+.blog {
+    background-color: $ice;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+// Left Block Aside
+
+.leftBlog {
+    width: 35vh;
+}
+
+.rightBlog {
+    margin-left: 175px;
+}
+
+aside {
+    background-color: #FFF;
+    margin: 60rem 3rem 2rem 1rem;
+    padding-top: 6vh;
+    padding-left: 20px;
+    padding-right: 30px;
+    width: 416px;
+
+    a {
+        @include anchorStyle(none, #000);
+    }
+}
+
+.aboutCaptured {
+    padding-bottom: 5rem;
+}
+
+.recentPosts {
+    margin-bottom: 4rem;
+}
+article {
+    border: 10px solid $boxShadow;
+    border-right: none;
+    margin-top: 15rem;
+    padding-left: 3rem;
+}
+
+// Right Blog Section
+
+.flexComment {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.comment {
+    position: relative;
+    padding-bottom: 15rem;
+}
+
+.commentCont {
+    margin-left: 155px;
+}
+
+// Form Section
+
+fieldset {
+    border: none;
+
+    button {
+        border: none;
+        background-color: $green;
+        margin: 4rem 0 8rem 0;
+        padding: 1rem 0;
+        width: 100%;
+    }
+}
+
+input,
+textarea {
+    border: none;
+    border-bottom: 2px solid $green;
+    background-color: $ice;
+    padding: 1rem;
+}
+
+#name {
+    width: 45%;
+}
+
+#email {
+    float: right;
+    width: 45%;
+}
+
+#comment {
+    width: 100%;
+    border: 2px solid $green;
+    margin-top: 3rem;
+    resize: none;
+    height: 20rem;
+}
+
+
+
+
+
+ 
+
+
+    
+
+

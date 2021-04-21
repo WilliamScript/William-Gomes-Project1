@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&family=Roboto:ital@1&display=swap"
+        rel="stylesheet">
+    <title>Blog</title>
+</head>
+
+<body class="blog">
+    <header class="blogHeader">
+        <div class="wrapper">
+            <nav >
+                <ul>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Home</a></li>
+                </ul>
+            </nav>
+            <h1>BLOG</h1>
+        </div>
+    </header>
+    <div class="wrapper">
+        <main class="flexContainer">
+            <div class="leftBlog">
+                <div class="leftPicture">
+                    <img src="./assets/captured-final-assets/side-blog-image.jpg"
+                        alt="A lense hovering above someones hand">
+                </div>
+                <aside>
+                    <div class="aboutCaptured">
+                        <h4>About Captured</h4>
+                        <p>Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum. <a
+                                href="#"><em>Find out more.</em></a></p>
+                    </div>
+                    <div class="recentPosts">
+                        <h4>Recent Posts</h4>
+                        <ul class="recentPostList">
+                            <li>Donec facilisis tortor ut</li>
+                            <li>Augue lacinia at viverra</li>
+                            <li>Semper sed sapien metus</li>
+                            <li>Scelerisqie nec pharetra id</li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+
+            <div class="rightBlog">
+                <div class="rightPicture">
+                    <img src="./assets/captured-final-assets/blog-post-image.jpg"
+                        alt="A person is taking a photo from the middle of a field of dandelions">
+                </div>
+                <article>
+                    <h3>Finding Great Locations</h3>
+                    <p class="date"> Monday May 4th, 2019 by Dieula</p>
+                    <p>Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim,
+                        pulvinar lobortis nibh lacinia at. Vestibulum nec erat ut mi sollicitudin porttitor id sit amet
+                        risus. Nam tempus vel odio vitae aliquam.</p>
+                    <p>In imperdiet eros id lacus vesitibulum vestibulum. Suspendisse fermentum sem sagittis ante
+                        venenatis egestas quis vel justo. Maecenas semper suscipit nunc, sed aliquam sapien convallis
+                        eu. Nulla ut turpis in diam dapibus consequat. Fusce vehicula dolor arcu, sit amet blandit dolor
+                        mollis nec. Donec viverra eleifend lacu.</p>
+                    <p>Lorem ipsem dolor sit amet, cosectetur adipiscing elit. Ut pretium pretium tempor. Ut eget
+                        imperdiet neque. Un volutpat ante semper diam molestie, et aliquam erat laoreet. Sed sit amet
+                        arcu aliquet, molesetie justo at, auctor nunc. Phasellus ligula ipsum, volutpat eget semper id,
+                        viverra eget nibh. Suspendisse luctus mattis cursus. Nam consectetur ante at nisl hendrerit
+                        gravida. Donec vehicula rhoncus mattisl Mauris dignissim semper mattis. Fusce porttitor a mi at
+                        suscipit. Praesent facilisis dolor sapien, vel sodales augue mollis ut. Mauris venenatis magna
+                        eu tortor posuere luctus.</p>
+                    <p>Aenean tincidunt turpis sed dui aliquam vehicula. Praesent nec elit non dolor consectetur
+                        tincidunt sed in felis. Donec elementum, lacus at mattis tincidunt, eros magna faucibus sem, in
+                        condimentum est augue tristique risus.</p>
+                    <p>Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at.
+                        Vestibulum nec erat ut mi
+                        sollicitudin porttitor id sit amet risus. Nam tempus vel odio vitae aliquam.</p>
+                    <p>In imperdiet eros id lacus vesitibulum vestibulum. Suspendisse fermentum sem sagittis ante
+                        venenatis egestas quis vel
+                        justo. Maecenas semper suscipit nunc, sed aliquam</p>
+                </article>
+                <div class="flexComment">
+                    <h4>Comments:</h4>
+                    <div class="comment">
+                        <div class="profilePic">
+                            <img src="./assets/captured-final-assets/comment-1.jpg" alt="A black male wearing a hat">
+                        </div>
+                        <div class="flexComment commentCont">
+                            <p class="date">Tuesday October 9th, 2018 by Jeremy</p>
+                            <p>Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend
+                                lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices.
+                                Donec euismod Scelerisque ligula. Maecenas eu varius risus, eu eliquet arcu.</p>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <div class="profilePic">
+                            <img src="./assets/captured-final-assets/comment-2.jpg" alt="A white female smiling">
+                        </div>
+                        <div class="flexComment commentCont">
+                            <p class="date">Wednesday October 10th, 2018 by Julia</p>
+                            <p>Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc
+                                sollicitudin ultrices. Donec euismod Scelerisque ligula. Maecenas eu varius risus, eu
+                                eliquet arcu.</p>
+                        </div>
+                    </div>
+                </div>
+                <form action="POST">
+                    <fieldset>
+                        <label for="name" class="visuallyHidden">Name</label>
+                        <input type="text" placeholder="Name" name="name" id="name">
+                        
+                        <label for="email" class="visuallyHidden">Email Address</label>
+                        <input type="email" placeholder="Email address" name="email" id="email">
+                        
+                        <label for="comment" class="visuallyHidden">Comment</label>
+                        <textarea name="comment" id="comment" placeholder="Comment"></textarea>
+                        <button> Post Comment</button>
+                    </fieldset>
+                </form>
+            </div>
+
+        </main>
+    </div>
+    <footer>
+        <p>Copyright &#9400; 2018 HackerYou</p>
+    </footer>
+</body>
+
+</html>
